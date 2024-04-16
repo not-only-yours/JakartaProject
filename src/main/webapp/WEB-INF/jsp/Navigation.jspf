@@ -1,0 +1,9 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page pageEncoding="UTF-8" %>
+<form action="navigatorServlet" method="POST">
+    <input type="submit" name="Main" value="Main Page">
+    <c:if test="${user!=null}">
+    <input type="submit" name="My" value="My tenders">
+    <input type="submit" name="Create" value="Add tender">
+    </c:if>
+</form>
