@@ -7,7 +7,7 @@
     <groupId>com.mycompany</groupId>
     <artifactId>JakartaProject</artifactId>
     <version>latest</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>Tenders_Kasiudyk</name>
 
